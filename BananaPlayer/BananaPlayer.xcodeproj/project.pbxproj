@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8458842E234609A3009E9B2A /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458842D234609A3009E9B2A /* SongDetail.swift */; };
+		8467988A234C670000339DB2 /* PlayerSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84679889234C670000339DB2 /* PlayerSingleton.swift */; };
+		84AF8F3D234AFB4500ECBA85 /* SongDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8F3C234AFB4500ECBA85 /* SongDetailTableViewCell.swift */; };
+		84AF8F41234B1E6100ECBA85 /* SongDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8F40234B1E6100ECBA85 /* SongDetailTableViewController.swift */; };
+		84AF8F43234B3ADA00ECBA85 /* Torches.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84AF8F42234B3ADA00ECBA85 /* Torches.mp3 */; };
+		84AF8F48234B6CBD00ECBA85 /* Katharsis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84AF8F44234B6CBD00ECBA85 /* Katharsis.mp3 */; };
+		84AF8F49234B6CBD00ECBA85 /* CoGaiBanBen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84AF8F45234B6CBD00ECBA85 /* CoGaiBanBen.mp3 */; };
+		84AF8F4A234B6CBD00ECBA85 /* Kaen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84AF8F46234B6CBD00ECBA85 /* Kaen.mp3 */; };
+		84AF8F4B234B6CBD00ECBA85 /* Unravel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84AF8F47234B6CBD00ECBA85 /* Unravel.mp3 */; };
+		84FCF8C323436D440089178B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCF8C223436D440089178B /* AppDelegate.swift */; };
+		84FCF8C523436D440089178B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCF8C423436D440089178B /* ViewController.swift */; };
+		84FCF8C823436D440089178B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCF8C623436D440089178B /* Main.storyboard */; };
+		84FCF8CA23436D4B0089178B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FCF8C923436D4B0089178B /* Assets.xcassets */; };
+		84FCF8CD23436D4B0089178B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCF8CB23436D4B0089178B /* LaunchScreen.storyboard */; };
+		84FCF8D823436D4B0089178B /* BananaPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCF8D723436D4B0089178B /* BananaPlayerTests.swift */; };
+		84FCF8E423436D6C0089178B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FCF8E323436D6C0089178B /* AVFoundation.framework */; };
+		84FCF8E623436D740089178B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FCF8E523436D740089178B /* AVKit.framework */; };
+		84FCF8ED23445D7B0089178B /* NgayLangThang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84FCF8EC23445D7B0089178B /* NgayLangThang.mp3 */; };
+		84FCF8EF2345D3B20089178B /* SurviveSaidTheProphet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84FCF8EE2345D3B20089178B /* SurviveSaidTheProphet.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FCF8D423436D4B0089178B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FCF8B723436D430089178B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FCF8BE23436D440089178B;
+			remoteInfo = BananaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8458842D234609A3009E9B2A /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
+		84679889234C670000339DB2 /* PlayerSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSingleton.swift; sourceTree = "<group>"; };
+		84AF8F3C234AFB4500ECBA85 /* SongDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailTableViewCell.swift; sourceTree = "<group>"; };
+		84AF8F40234B1E6100ECBA85 /* SongDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailTableViewController.swift; sourceTree = "<group>"; };
+		84AF8F42234B3ADA00ECBA85 /* Torches.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Torches.mp3; sourceTree = "<group>"; };
+		84AF8F44234B6CBD00ECBA85 /* Katharsis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Katharsis.mp3; sourceTree = "<group>"; };
+		84AF8F45234B6CBD00ECBA85 /* CoGaiBanBen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoGaiBanBen.mp3; sourceTree = "<group>"; };
+		84AF8F46234B6CBD00ECBA85 /* Kaen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kaen.mp3; sourceTree = "<group>"; };
+		84AF8F47234B6CBD00ECBA85 /* Unravel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Unravel.mp3; sourceTree = "<group>"; };
+		84FCF8BF23436D440089178B /* BananaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FCF8C223436D440089178B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FCF8C423436D440089178B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84FCF8C723436D440089178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FCF8C923436D4B0089178B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FCF8CC23436D4B0089178B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FCF8CE23436D4B0089178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCF8D323436D4B0089178B /* BananaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FCF8D723436D4B0089178B /* BananaPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaPlayerTests.swift; sourceTree = "<group>"; };
+		84FCF8D923436D4B0089178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCF8E323436D6C0089178B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84FCF8E523436D740089178B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		84FCF8EC23445D7B0089178B /* NgayLangThang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NgayLangThang.mp3; sourceTree = "<group>"; };
+		84FCF8EE2345D3B20089178B /* SurviveSaidTheProphet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SurviveSaidTheProphet.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FCF8BC23436D440089178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCF8E623436D740089178B /* AVKit.framework in Frameworks */,
+				84FCF8E423436D6C0089178B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCF8D023436D4B0089178B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8458842C2346094E009E9B2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8458842D234609A3009E9B2A /* SongDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84FCF8B623436D430089178B = {
+			isa = PBXGroup;
+			children = (
+				84FCF8C123436D440089178B /* BananaPlayer */,
+				84FCF8D623436D4B0089178B /* BananaPlayerTests */,
+				84FCF8C023436D440089178B /* Products */,
+				84FCF8E223436D6C0089178B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84FCF8C023436D440089178B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FCF8BF23436D440089178B /* BananaPlayer.app */,
+				84FCF8D323436D4B0089178B /* BananaPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FCF8C123436D440089178B /* BananaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84679889234C670000339DB2 /* PlayerSingleton.swift */,
+				8458842C2346094E009E9B2A /* Model */,
+				84FCF8C223436D440089178B /* AppDelegate.swift */,
+				84FCF8C423436D440089178B /* ViewController.swift */,
+				84AF8F40234B1E6100ECBA85 /* SongDetailTableViewController.swift */,
+				84AF8F3C234AFB4500ECBA85 /* SongDetailTableViewCell.swift */,
+				84FCF8C623436D440089178B /* Main.storyboard */,
+				84FCF8EB23445BAF0089178B /* Sounds */,
+				84FCF8C923436D4B0089178B /* Assets.xcassets */,
+				84FCF8CB23436D4B0089178B /* LaunchScreen.storyboard */,
+				84FCF8CE23436D4B0089178B /* Info.plist */,
+			);
+			path = BananaPlayer;
+			sourceTree = "<group>";
+		};
+		84FCF8D623436D4B0089178B /* BananaPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FCF8D723436D4B0089178B /* BananaPlayerTests.swift */,
+				84FCF8D923436D4B0089178B /* Info.plist */,
+			);
+			path = BananaPlayerTests;
+			sourceTree = "<group>";
+		};
+		84FCF8E223436D6C0089178B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FCF8E523436D740089178B /* AVKit.framework */,
+				84FCF8E323436D6C0089178B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84FCF8EB23445BAF0089178B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				84AF8F45234B6CBD00ECBA85 /* CoGaiBanBen.mp3 */,
+				84AF8F46234B6CBD00ECBA85 /* Kaen.mp3 */,
+				84AF8F44234B6CBD00ECBA85 /* Katharsis.mp3 */,
+				84AF8F47234B6CBD00ECBA85 /* Unravel.mp3 */,
+				84AF8F42234B3ADA00ECBA85 /* Torches.mp3 */,
+				84FCF8EE2345D3B20089178B /* SurviveSaidTheProphet.mp3 */,
+				84FCF8EC23445D7B0089178B /* NgayLangThang.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FCF8BE23436D440089178B /* BananaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FCF8DC23436D4B0089178B /* Build configuration list for PBXNativeTarget "BananaPlayer" */;
+			buildPhases = (
+				84FCF8BB23436D440089178B /* Sources */,
+				84FCF8BC23436D440089178B /* Frameworks */,
+				84FCF8BD23436D440089178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BananaPlayer;
+			productName = BananaPlayer;
+			productReference = 84FCF8BF23436D440089178B /* BananaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FCF8D223436D4B0089178B /* BananaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FCF8DF23436D4B0089178B /* Build configuration list for PBXNativeTarget "BananaPlayerTests" */;
+			buildPhases = (
+				84FCF8CF23436D4B0089178B /* Sources */,
+				84FCF8D023436D4B0089178B /* Frameworks */,
+				84FCF8D123436D4B0089178B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FCF8D523436D4B0089178B /* PBXTargetDependency */,
+			);
+			name = BananaPlayerTests;
+			productName = BananaPlayerTests;
+			productReference = 84FCF8D323436D4B0089178B /* BananaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FCF8B723436D430089178B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chuối";
+				TargetAttributes = {
+					84FCF8BE23436D440089178B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84FCF8D223436D4B0089178B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84FCF8BE23436D440089178B;
+					};
+				};
+			};
+			buildConfigurationList = 84FCF8BA23436D430089178B /* Build configuration list for PBXProject "BananaPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FCF8B623436D430089178B;
+			productRefGroup = 84FCF8C023436D440089178B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FCF8BE23436D440089178B /* BananaPlayer */,
+				84FCF8D223436D4B0089178B /* BananaPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FCF8BD23436D440089178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF8F4A234B6CBD00ECBA85 /* Kaen.mp3 in Resources */,
+				84FCF8CD23436D4B0089178B /* LaunchScreen.storyboard in Resources */,
+				84FCF8CA23436D4B0089178B /* Assets.xcassets in Resources */,
+				84FCF8EF2345D3B20089178B /* SurviveSaidTheProphet.mp3 in Resources */,
+				84AF8F4B234B6CBD00ECBA85 /* Unravel.mp3 in Resources */,
+				84FCF8ED23445D7B0089178B /* NgayLangThang.mp3 in Resources */,
+				84FCF8C823436D440089178B /* Main.storyboard in Resources */,
+				84AF8F43234B3ADA00ECBA85 /* Torches.mp3 in Resources */,
+				84AF8F49234B6CBD00ECBA85 /* CoGaiBanBen.mp3 in Resources */,
+				84AF8F48234B6CBD00ECBA85 /* Katharsis.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCF8D123436D4B0089178B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FCF8BB23436D440089178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCF8C523436D440089178B /* ViewController.swift in Sources */,
+				84AF8F3D234AFB4500ECBA85 /* SongDetailTableViewCell.swift in Sources */,
+				84AF8F41234B1E6100ECBA85 /* SongDetailTableViewController.swift in Sources */,
+				8458842E234609A3009E9B2A /* SongDetail.swift in Sources */,
+				8467988A234C670000339DB2 /* PlayerSingleton.swift in Sources */,
+				84FCF8C323436D440089178B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCF8CF23436D4B0089178B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCF8D823436D4B0089178B /* BananaPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FCF8D523436D4B0089178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FCF8BE23436D440089178B /* BananaPlayer */;
+			targetProxy = 84FCF8D423436D4B0089178B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FCF8C623436D440089178B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FCF8C723436D440089178B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FCF8CB23436D4B0089178B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FCF8CC23436D4B0089178B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FCF8DA23436D4B0089178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FCF8DB23436D4B0089178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FCF8DD23436D4B0089178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BananaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExPlayer.BananaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FCF8DE23436D4B0089178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BananaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExPlayer.BananaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84FCF8E023436D4B0089178B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BananaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExPlayer.BananaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaPlayer.app/BananaPlayer";
+			};
+			name = Debug;
+		};
+		84FCF8E123436D4B0089178B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BananaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExPlayer.BananaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BananaPlayer.app/BananaPlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FCF8BA23436D430089178B /* Build configuration list for PBXProject "BananaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCF8DA23436D4B0089178B /* Debug */,
+				84FCF8DB23436D4B0089178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FCF8DC23436D4B0089178B /* Build configuration list for PBXNativeTarget "BananaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCF8DD23436D4B0089178B /* Debug */,
+				84FCF8DE23436D4B0089178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FCF8DF23436D4B0089178B /* Build configuration list for PBXNativeTarget "BananaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FCF8E023436D4B0089178B /* Debug */,
+				84FCF8E123436D4B0089178B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FCF8B723436D430089178B /* Project object */;
+}
